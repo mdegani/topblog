@@ -1,11 +1,9 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+// import Link from 'gatsby-link'
+import RetroHome from "./retroHome";
 
 const IndexPage = () => (
-  <div>
-    <p>I am a software developer from Toronto, ON</p>
-    <Link to="/page-2/">more...</Link>
-  </div>
-)
+  <RetroHome />
+);
 
-export default IndexPage
+export default IndexPage;
